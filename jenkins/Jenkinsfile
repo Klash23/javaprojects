@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git 'https://github.com/cnsidze/java-project.git'
+                git 'https://github.com/Klash23/javaproject'
                 sh 'mvn -B -DskipTests clean package'
             }
         }
